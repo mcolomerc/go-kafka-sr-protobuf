@@ -1,0 +1,15 @@
+syntax="proto3";
+
+package person;
+
+option go_package = "/model";
+
+message Person {
+      string name = 1;
+      string email = 2;
+      string phone = 3;
+      string company = 4;
+      string job = 5;
+      string gender = 6; 
+      int32 age = 7;
+}
