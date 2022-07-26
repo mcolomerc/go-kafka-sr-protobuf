@@ -2,7 +2,9 @@ syntax="proto3";
 
 package person;
 
-option go_package = "/model";
+import "proto/person/address.proto";
+
+option go_package = "/model"; 
 
 message Person {
       string name = 1;
@@ -12,4 +14,5 @@ message Person {
       string job = 5;
       string gender = 6; 
       int32 age = 7;
+      Address address = 8;
 }

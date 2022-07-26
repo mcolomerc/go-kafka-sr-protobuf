@@ -16,8 +16,8 @@ brew install protoc-gen-go
 ## Generate protobuf code (pb.go) 
  
 ```bash
-protoc proto/*.proto -I. --go_out=:.
-``` 
+protoc proto/*/*.proto -I. --go_out=:./proto
+```  
 
 Go Protofub tips: https://jbrandhorst.com/post/go-protobuf-tips/
 

@@ -1,0 +1,12 @@
+syntax="proto3";
+
+package person;
+
+option go_package = "/model";
+
+message Address {
+      string street = 1;
+      string number = 2;
+      string city = 3;
+      string country = 4; 
+}

@@ -13,6 +13,6 @@ require (
 	google.golang.org/protobuf v1.28.0 // indirect
 )
 
-require github.com/mcolomerc/kafkasr/proto v0.0.0-00010101000000-000000000000
+require github.com/mcolomerc/kafkasr/proto v0.0.0
 
-replace github.com/mcolomerc/kafkasr/proto v0.0.0-00010101000000-000000000000 => ../proto
+replace github.com/mcolomerc/kafkasr/proto v0.0.0 => ../proto

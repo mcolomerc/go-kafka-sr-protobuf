@@ -15,6 +15,12 @@ func GetPerson() model.Person {
 		Job:     gofakeit.JobTitle(),
 		Gender:  gofakeit.Gender(),
 		Age:     gofakeit.Int32(),
+		Address: &model.Address{
+			Street:  gofakeit.Street(),
+			Number:  gofakeit.Zip(),
+			City:    gofakeit.City(),
+			Country: gofakeit.Country(),
+		},
 	}
 }
 
